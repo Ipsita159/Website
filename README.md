@@ -1,2 +1,0 @@
-# Blog
-Learning and Explore
