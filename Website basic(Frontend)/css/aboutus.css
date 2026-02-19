@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  @media (min-width: 0px) and (max-width: 500px) {}
+}
+
+body {
+  background-color: #4FAA96;
+  color: #fff;
+  font-weight: lighter;
+  justify-content: center;
+
+  background-image: url("../image/hospitalbed.png");
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+
+  background-position: center;
+
+  background-attachment: fixed;
+
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.naav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+nav a {
+  color: #361704;
+  text-decoration: none;
+  /* font-weight: 500; */
+  display: inline-block;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 1px 1px;
+  align-items: center;
+  display: inline-block;
+}
+
+.text {
+  font-size: larger;
+}
+
+.header {
+  background: #202453;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+}
+
+/* .overlaytext{
+    position: absolute;
+}  */
+.footer {
+  /* padding: 40px 20px; */
+  color: #fff;
+  ;
+  text-align: center;
+  font-family: Montserrat;
+  display: inline-block;
+}

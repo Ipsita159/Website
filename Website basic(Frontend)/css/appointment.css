@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  @media (min-width: 0px) and (max-width: 500px) {}
+}
+
+body {
+  color: #361704;
+  font-weight: lighter;
+  justify-content: center;
+
+  background-image: url("../image/appointment.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.naav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+nav a {
+  color: #361704;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 1px 1px;
+  align-items: center;
+  display: inline-block;
+}
+
+/* .navtext{
+    color: #222;
+    height: auto;
+    flex: row;
+} */
+.header {
+  background: #202453;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+}
+
+.footer {
+  /* padding: 40px 20px; */
+  color: #222;
+  text-align: center;
+  font-family: Georgia;
+  display: inline-block;
+}
+
+.box {
+  /* border:solid, #222; */
+  box-sizing: border-box;
+  border-left: #222;
+  border-bottom: #222;
+  border-right: #222;
+  border-top: #222;
+  border: #222, 2px;
+  background-color: #D9D9D9;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: row;
+  margin: 300px;
+  /* padding-right: ; */
+}
+
+/* .appoint{
+color: #222;
+} */
+hr {
+  width: 100%;
+  /* border: ; */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  /* horizontal center */
+  align-items: center;
+  /* vertical center */
+  gap: 40px;
+}

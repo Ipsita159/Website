@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  @media (min-width: 0px) and (max-width: 500px) {}
+}
+
+body {
+  font-family: Montserrat;
+  background: #4FAA96;
+  color: #222;
+}
+
+header {
+  background: #202453;
+  color: #FDF4F4;
+  padding: 1px 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.left-icon {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  background-color: transparent;
+}
+
+.right-icon {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.naav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+nav a {
+  color: #361704;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 1px 1px;
+  align-items: center;
+  display: inline-block;
+}
+
+.logo img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: white;
+  padding: 5px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  /* gap: 20px; */
+  padding: 24px;
+}
+
+.box {
+  padding: 40px 20px;
+  background: #31634E;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  font-family:Montserrat ;
+}
+
+.box1 {
+  background-color: #2b7a78;
+  color: #361704;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+  font-family: Montserrat ;
+}
+
+.box2 {
+  background-color: #4FAA96;
+  text-align: center;
+  width: 200px;
+  height: 100px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+  font-family: Montserrat, ;
+}
+
+.box3 {
+  background-color: #ffffff;
+  padding: 100px 100px;
+  color: #222;
+  text-align: center;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  font-family: Montserrat, ;
+}
+
+.box4 {
+  background-color: #D4824B;
+  padding: 40px 20px;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  font-family: Montserrat;
+}
+
+.footer {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  color: #222;
+  text-align: center;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0px;
+  font-family: Montserrat, ;
+  align-items: center;
+  flex: 0 0 45%;
+}
